@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find md)/launch/md_robot_node_mdh150.launch" />
+    <include file="$(find encoder_to_odometry)/launch/encoder_to_odometry.launch" />
+    <include file="$(find robot_localization)/launch/ekf_template.launch" />
+    <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+</launch>
